@@ -94,7 +94,7 @@ def sidebar_data():
 
     # Filter for maximum price using a slider
     price_filter_choiceS = st.sidebar.slider("Results by Maximum Price:", min_value=float(df.price.min()),
-                                             max_value=300000)), value=float(df.price.max()))
+                                             max_value=300000), value=float(df.price.max()))
 
 
     # Filter by car type
