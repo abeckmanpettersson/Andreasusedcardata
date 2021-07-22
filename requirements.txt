@@ -4,3 +4,4 @@ plotly-express==0.4.1
 streamlit==0.84.1
 streamlit-folium==0.4.0
 folium==0.12.1
+plotly-express==0.4.1
