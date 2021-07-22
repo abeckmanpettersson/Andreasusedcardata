@@ -171,7 +171,7 @@ def map(filtered_map):
     import folium
 
     st.header("Map View")
-    st.subheader("To view map, you need to filter at least one non-numerical value")
+    #st.subheader("To view map, you need to filter at least one non-numerical value")
     zoom = st.slider("", min_value=0, max_value=30, step=1, value=10)
     folium_map = folium.Map(location=[42.3855, -71.2218], zoom_start=zoom)
 
