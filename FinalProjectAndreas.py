@@ -27,7 +27,7 @@ st.markdown("Start off by making sure that you have the ""View Data"" button sel
 
 @st.cache(allow_output_mutation=True)
 def get_data():
-    path = r'C:/Users/pette/OneDrive/CS602/FinalProject/cl_used_cars_7000_sample.csv'
+    path = r'https://raw.githubusercontent.com/abeckmanpettersson/Andreasusedcardata/main/cl_used_cars_7000_sample.csv'
     return pd.read_csv(path)
 
 df = get_data()
